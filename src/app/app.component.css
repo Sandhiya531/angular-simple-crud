@@ -1,0 +1,45 @@
+.input{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+.inputField{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+.inputBtn{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: rgb(3, 137, 3);
+}
+.container {
+    text-align: center;
+}
+.itemContainer{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    gap:300px
+}
+.list-item-group{
+    list-style: none;
+}
+.item{
+    border:1px solid lightgray;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item a {
+    margin-left: auto;
+}
+.icons {
+    display: flex;
+    gap: 3px;
+}
